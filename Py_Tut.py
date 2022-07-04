@@ -1,5 +1,5 @@
-# """
-#
+# Commenting & Formatting
+
 # item_one = 1
 # item_two = 2
 # item_three = 3
@@ -10,13 +10,15 @@
 #
 # word = 'word'
 # sentence = "This is a sentence."
-# paragraph = """ """This is a paragraph. It is
-# made up of multiple lines and sentences.""" """
+# paragraph = """This is a paragraph. It is
+# made up of multiple lines and sentences."""
 #
 # print(word)
 # print(sentence)
 # print(paragraph)
-#
+
+# numbers
+
 # import sys
 # x = 'foo'
 # sys.stdout.write(x + '\n')
@@ -38,6 +40,7 @@
 # c = 9.322e-36j
 # print(c)
 #
+# # Strings
 # str = 'Hello World!'
 #
 # print (str)          # Prints complete string
@@ -46,7 +49,9 @@
 # print (str[2:])    # Prints string starting from 3rd character
 # print (str * 2)     # Prints string two times
 # print (str + "TEST") # Prints concatenated string
-#
+
+#List
+
 # list = [ 'abcd', 786 , 2.23, 'john', 70.2 ]
 # tinylist = [123, 'john']
 #
@@ -56,6 +61,8 @@
 # print (list[2:])      # Prints elements starting from 3rd element
 # print (tinylist * 2)  # Prints list two times
 # print (list + tinylist) # Prints concatenated lists
+
+#Tuple
 #
 # tuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
 # tinytuple = (123, 'john')
@@ -73,7 +80,9 @@
 # list[2] = 1000     # Valid syntax with list
 # print(list)
 # print(tuple)
-#
+
+#Dictionary
+
 # dict = {}
 # dict['one'] = "This is one"
 # dict[2]     = "This is two"
@@ -86,7 +95,9 @@
 # print (tinydict)          # Prints complete dictionary
 # print (tinydict.keys())   # Prints all the keys
 # print (tinydict.values()) # Prints all the values
-#
+
+# Operators
+
 # print (oct(10))
 # print(ord('a'))
 #
@@ -203,7 +214,9 @@
 #
 # c = a >> 2  # 15 = 0000 1111
 # print("Line 6 - Value of c is ", c)
-#
+
+# Condition testing
+
 # a = 10
 # b = 20
 # list = [1, 2, 3, 4, 5 ];
@@ -300,7 +313,9 @@
 #    print ("Could not find true expression")
 #
 # print ("Good bye!")
-#
+
+#Loops
+
 # count = 0
 # while (count < 9):
 #    print ('The count is:', count)
@@ -327,6 +342,8 @@
 #    i = i + 1
 #
 # print ("Good bye!")
+
+# Numbers
 #
 # print ("My name is %s and weight is %d kg!" % ('Zara', 21))
 #
@@ -403,8 +420,9 @@
 #
 # print (math.sin(3))
 # print (math.asin(0.1411200080598672))
-#
-# # Strings
+
+# Strings
+
 # var1 = 'Hello World!'
 # print("Original String : -", var1)
 # print ("Updated String :- ", var1[:6] + 'Python')
@@ -472,52 +490,55 @@
 # print(dict)
 # print ("Value : %s" %  dict.values())
 # print ("Value : %s" %  dict.keys())
-# """
-# #Date Time and Calender
-# # import time;  # This is required to include time module.
-# # import calendar
-# #
-# # ticks = time.time()
-# # print ("Number of ticks since 12:00am, January 1, 1970:", ticks)
-# #
-# # localtime = time.localtime(time.time())
-# # print ("Local current time :", localtime)
-# #
-# # localtime = time.asctime( time.localtime(time.time()) )
-# # print ("Local current time :", localtime)
-# #
-# # cal = calendar.month(2022, 7)
-# # print ("Here is the calendar:")
-# # print (cal)
-# #
-# # print ("time.altzone %d " % time.altzone)
-# #
-# # #def procedure():
-# # #   time.sleep(2.5)
-# #
-# # # measure process time
-# # #t0 = time.clock()
-# # #procedure()
-# # #print (time.clock(), "seconds process time")
-# #
-# # # measure wall time
-# # #t0 = time.time()
-# # #procedure()
-# # #print (time.time() - t0, "seconds wall time")
-# #
-# # #print ("time.ctime() : %s" % time.ctime())
-# #
-# # #print ("time.localtime() : %s" % time.localtime())
-# #
-# # t = (2009, 2, 17, 17, 3, 38, 1, 48, 0)
-# # secs = time.mktime( t )
-# # print ("time.mktime(t) : %f" %  secs)
-# # print ("asctime(localtime(secs)): %s" % time.asctime(time.localtime(secs)))
-# #
-# # variable = calendar.calendar(year,w=2,l=1,c=6)
-# # print(variable)
 
-# #functions
+
+#Date Time and Calender
+
+# import time;  # This is required to include time module.
+# import calendar
+#
+# ticks = time.time()
+# print ("Number of ticks since 12:00am, January 1, 1970:", ticks)
+#
+# localtime = time.localtime(time.time())
+# print ("Local current time :", localtime)
+#
+# localtime = time.asctime( time.localtime(time.time()) )
+# print ("Local current time :", localtime)
+#
+# cal = calendar.month(2022, 7)
+# print ("Here is the calendar:")
+# print (cal)
+#
+# print ("time.altzone %d " % time.altzone)
+#
+# def procedure():
+#   time.sleep(2.5)
+#
+# #measure process time
+# t0 = time.clock()
+# procedure()
+# print (time.clock(), "seconds process time")
+#
+# #measure wall time
+# t0 = time.time()
+# procedure()
+# print (time.time() - t0, "seconds wall time")
+#
+# print ("time.ctime() : %s" % time.ctime())
+#
+# print ("time.localtime() : %s" % time.localtime())
+#
+# t = (2009, 2, 17, 17, 3, 38, 1, 48, 0)
+# secs = time.mktime( t )
+# print ("time.mktime(t) : %f" %  secs)
+# print ("asctime(localtime(secs)): %s" % time.asctime(time.localtime(secs)))
+#
+# variable = calendar.calendar(year,w=2,l=1,c=6)
+# print(variable)
+
+#Functions
+
 # # Function definition is here
 # def printme(str):
 #    "This prints a passed string into this function"
@@ -628,11 +649,13 @@
 
 #Modules
 
-#IO
+
+# IO
+
 # str = input("Enter your input: ")
 # print ("Received input is : ", str)
-
-# Open a file
+#
+# #Open a file
 # fo = open("foo.txt", "wb")
 # print ("Name of the file: ", fo.name)
 # print ("Closed or not : ", fo.closed)
@@ -655,8 +678,8 @@
 # print ("Read String is : ", str)
 # # Close opend file
 # fo.close()
-
-# Open a file
+#
+# #Open a file
 # fo = open("foo.txt", "r+")
 # str = fo.read(22)
 # print ("Read String is : ", str)
@@ -673,6 +696,7 @@
 # fo.close()
 
 # Exceptions
+
 # import unittest
 # def KelvinToFahrenheit(Temperature):
 #    assert (Temperature >= 0),"Colder than absolute zero!"
@@ -681,7 +705,7 @@
 # print (KelvinToFahrenheit(273))
 # print (int(KelvinToFahrenheit(505.78)))
 # print (KelvinToFahrenheit(-5))
-
+#
 # try:
 #    fh = open("testfile", "w")
 #    fh.write("This is my test file for exception handling!!")
@@ -690,7 +714,7 @@
 # else:
 #    print ("Written content in the file successfully")
 #    fh.close()
-
+#
 # try:
 #    fh = open("testfile", "w")
 #    try:
@@ -700,8 +724,8 @@
 #       fh.close()
 # except IOError:
 #    print ("Error: can\'t find file or read data")
-
-# Define a function here.
+#
+# #Define a function here.
 # def temp_convert(var):
 #    try:
 #       return int(var)
@@ -711,7 +735,7 @@
 #
 # # Call above function here.
 # temp_convert("xyz")
-
+#
 # class Networkerror(RuntimeError):
 #     def __init__(self, arg):
 #       self.args = arg
@@ -721,6 +745,7 @@
 #    print (e.args)
 
 # Class in Python
+
 # class Employee: # Define a Class (Employee is an object)
 #     "Common base class for all employees"
 #     empCount = 0 #Define a Class variable (inside the class but outside the class methods)
@@ -853,7 +878,8 @@
 # print (counter._JustCounter__secretCount)
 # print(counter.__secretCount)
 
-#Reg Ex
+# Reg Expressions
+
 # import re
 #
 # line = "Cats are smarter than dogs"
@@ -915,7 +941,9 @@
 # except SMTPException:
 #    print ("Error: unable to send email")
 
-# XML Paerser
+# XML Parser
+
+#SAX
 
 # import xml.sax
 # class MovieHandler(xml.sax.ContentHandler):
@@ -987,6 +1015,8 @@
 #     parser.setContentHandler(Handler)
 #
 #     parser.parse("movies.xml")
+
+# DOM
 
 # from xml.dom.minidom import parse
 # import xml.dom.minidom
@@ -1072,7 +1102,7 @@
 #
 # blackbutton = Button(bottomframe, text="Black", fg="black")
 # blackbutton.pack( side = BOTTOM)
-
+#
 # var = StringVar()
 # label = Label( root, textvariable=var, relief=RAISED )
 #
@@ -1082,6 +1112,7 @@
 # root.mainloop()
 
 # List Box
+
 # from tkinter import *
 # import tkinter.messagebox
 # import tkinter
@@ -1100,6 +1131,7 @@
 # top.mainloop()
 
 #Python - Tkinter Menubutton
+
 # from tkinter import *
 # import tkinter.messagebox
 # import tkinter
@@ -1123,8 +1155,8 @@
 # top.mainloop()
 
 #Python - Tkinter Menu
-from tkinter import *
 
+# from tkinter import *
 # def donothing():
 #     filewin = Toplevel(root)
 #     button = Button(filewin, text="Do nothing button")
@@ -1163,7 +1195,9 @@ from tkinter import *
 # root.config(menu=menubar)
 # root.mainloop()
 
+
 #Python - Tkinter Message
+
 # from tkinter import *
 #
 # root = Tk()
@@ -1175,6 +1209,7 @@ from tkinter import *
 # root.mainloop()
 
 #Python - Tkinter Radiobutton
+
 # from tkinter import *
 #
 # def sel():
@@ -1200,6 +1235,7 @@ from tkinter import *
 # root.mainloop()
 
 #Python - Tkinter Scale
+
 # from tkinter import *
 #
 # def sel():
@@ -1220,6 +1256,7 @@ from tkinter import *
 # root.mainloop()
 
 #Python - Tkinter Scrollbar
+
 # from tkinter import *
 #
 # root = Tk()
@@ -1236,6 +1273,7 @@ from tkinter import *
 # mainloop()
 
 #Python - Tkinter Text
+
 # from tkinter import *
 #
 # def onclick():
@@ -1254,6 +1292,7 @@ from tkinter import *
 # root.mainloop()
 
 #Python - Tkinter Toplevel
+
 # from tkinter import *
 #
 # root = Tk()
@@ -1261,6 +1300,7 @@ from tkinter import *
 # top.mainloop()
 
 #Python - Tkinter Spinbox
+
 # from tkinter import *
 #
 # master = Tk()
@@ -1271,6 +1311,7 @@ from tkinter import *
 # mainloop()
 
 #Python - Tkinter PanedWindow
+
 # from tkinter import *
 #
 # m1 = PanedWindow()
@@ -1291,6 +1332,7 @@ from tkinter import *
 # mainloop()
 
 #Python - Tkinter LabelFrame
+
 # from tkinter import *
 #
 # root = Tk()
@@ -1304,6 +1346,7 @@ from tkinter import *
 # root.mainloop()
 
 #Python - Tkinter tkMessageBox
+
 # import tkinter
 # import tkinter.messagebox
 #
@@ -1317,6 +1360,7 @@ from tkinter import *
 # top.mainloop()
 
 #Python - Tkinter grid() Method
+
 # import tkinter
 # root = tkinter.Tk(  )
 # for r in range(3):
@@ -1326,23 +1370,24 @@ from tkinter import *
 # root.mainloop(  )
 
 #Python - Tkinter place() Method
-from tkinter import *
-import tkinter.messagebox
-import tkinter
 
-top = tkinter.Tk()
-
-def helloCallBack():
-   tkinter.messagebox.showinfo( "Hello Python", "Hello World")
-
-B = tkinter.Button(top, text ="Hello", command = helloCallBack)
-
-B.pack()
-B.place(bordermode=OUTSIDE, height=100, width=100)
-top.mainloop()
-
+# from tkinter import *
+# import tkinter.messagebox
+# import tkinter
+#
+# top = tkinter.Tk()
+#
+# def helloCallBack():
+#    tkinter.messagebox.showinfo( "Hello Python", "Hello World")
+#
+# B = tkinter.Button(top, text ="Hello", command = helloCallBack)
+#
+# B.pack()
+# B.place(bordermode=OUTSIDE, height=100, width=100)
+# top.mainloop()
 
 # #Python - Multithreaded Programming
+
 # import _thread
 # import time
 # # Define a function for the thread
@@ -1398,7 +1443,7 @@ top.mainloop()
 # print ("Exiting Main Thread")
 
 #Synchronizing Threads
-
+#
 # import threading
 # import time
 #
@@ -1443,62 +1488,63 @@ top.mainloop()
 # print ("Exiting Main Thread")
 
 #Multithreaded Priority Queue
-import queue
-import threading
-import time
 
-exitFlag = 0
-
-class myThread (threading.Thread):
-   def __init__(self, threadID, name, q):
-      threading.Thread.__init__(self)
-      self.threadID = threadID
-      self.name = name
-      self.q = q
-   def run(self):
-      print ("Starting " + self.name)
-      process_data(self.name, self.q)
-      print ("Exiting " + self.name)
-
-def process_data(threadName, q):
-    while not exitFlag:
-        queueLock.acquire()
-        if not workQueue.empty():
-            data = q.get()
-            queueLock.release()
-            print ("%s processing %s" % (threadName, data))
-        else:
-            queueLock.release()
-            time.sleep(1)
-
-threadList = ["Thread-1", "Thread-2", "Thread-3"]
-nameList = ["One", "Two", "Three", "Four", "Five"]
-queueLock = threading.Lock()
-workQueue =queue.Queue(10)
-threads = []
-threadID = 1
-
-# Create new threads
-for tName in threadList:
-   thread = myThread(threadID, tName, workQueue)
-   thread.start()
-   threads.append(thread)
-   threadID += 1
-
-# Fill the queue
-queueLock.acquire()
-for word in nameList:
-   workQueue.put(word)
-queueLock.release()
-
-# Wait for queue to empty
-while not workQueue.empty():
-   pass
-
-# Notify threads it's time to exit
-exitFlag = 1
-
-# Wait for all threads to complete
-for t in threads:
-   t.join()
-print ("Exiting Main Thread")
+# import queue
+# import threading
+# import time
+# 
+# exitFlag = 0
+# 
+# class myThread (threading.Thread):
+#    def __init__(self, threadID, name, q):
+#       threading.Thread.__init__(self)
+#       self.threadID = threadID
+#       self.name = name
+#       self.q = q
+#    def run(self):
+#       print ("Starting " + self.name)
+#       process_data(self.name, self.q)
+#       print ("Exiting " + self.name)
+# 
+# def process_data(threadName, q):
+#     while not exitFlag:
+#         queueLock.acquire()
+#         if not workQueue.empty():
+#             data = q.get()
+#             queueLock.release()
+#             print ("%s processing %s" % (threadName, data))
+#         else:
+#             queueLock.release()
+#             time.sleep(1)
+# 
+# threadList = ["Thread-1", "Thread-2", "Thread-3"]
+# nameList = ["One", "Two", "Three", "Four", "Five"]
+# queueLock = threading.Lock()
+# workQueue =queue.Queue(10)
+# threads = []
+# threadID = 1
+# 
+# # Create new threads
+# for tName in threadList:
+#    thread = myThread(threadID, tName, workQueue)
+#    thread.start()
+#    threads.append(thread)
+#    threadID += 1
+# 
+# # Fill the queue
+# queueLock.acquire()
+# for word in nameList:
+#    workQueue.put(word)
+# queueLock.release()
+# 
+# # Wait for queue to empty
+# while not workQueue.empty():
+#    pass
+# 
+# # Notify threads it's time to exit
+# exitFlag = 1
+# 
+# # Wait for all threads to complete
+# for t in threads:
+#    t.join()
+# print ("Exiting Main Thread")
