@@ -1,3 +1,7 @@
+# This code was written by Nandkishor Motiram Dhawale, PhD in June 2022
+# This code is written as a learning tutorial in Python Programming language
+# The resources was from https://www.tutorialspoint.com/python/index.htm#
+
 # Commenting & Formatting
 
 # item_one = 1
